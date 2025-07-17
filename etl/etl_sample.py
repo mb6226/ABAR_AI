@@ -21,3 +21,4 @@ market_df.to_sql('market_data', engine, if_exists='append', index=False)
 client = MongoClient('localhost', 27017)
 db = client['abar_ai']
 db['news_data'].insert_one({'headline': 'Sample news', 'date': '2025-07-17'})
+#
