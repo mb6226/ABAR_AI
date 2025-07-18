@@ -46,10 +46,10 @@
 - [x] 8.3 مدیریت منابع و هزینه‌ها (انجام شده در: [پوشه ۸.۳](cloud/8_deployment_infrastructure/8.3_resource_cost_management/))
 
 ## 9. تست و اعتبارسنجی سیستم
-- [ ] 9.1 تست واحد و یکپارچه‌سازی
-- [ ] 9.2 تست عملکرد، امنیت و مقیاس‌پذیری
-- [ ] 9.3 تست پذیرش کاربر (UAT)
-- [ ] 9.4 مستندسازی تست‌ها و نتایج
+- [x] 9.1 تست واحد و یکپارچه‌سازی (انجام شده در: [پوشه ۹.۱](testing/9_system_testing_validation/9.1_unit_integration_tests/))
+- [x] 9.2 تست عملکرد، امنیت و مقیاس‌پذیری (انجام شده در: [پوشه ۹.۲](testing/9_system_testing_validation/9.2_performance_security_scalability/))
+- [x] 9.3 تست پذیرش کاربر (UAT) (انجام شده در: [پوشه ۹.۳](testing/9_system_testing_validation/9.3_user_acceptance_testing/))
+- [x] 9.4 مستندسازی تست‌ها و نتایج (انجام شده در: [پوشه ۹.۴](testing/9_system_testing_validation/9.4_test_documentation_results/))
 
 ## 10. اتصال به بازارهای واقعی و اجرای معاملات
 - [ ] 10.1 پیاده‌سازی اتصال به بروکرها و صرافی‌ها
