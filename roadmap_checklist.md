@@ -14,7 +14,7 @@
 - [x] 2.5 آموزش تیم و کاربران (انجام شده در: [2.5_team_training.md](project_management/requirements/2.5_team_training.md))
 
 ## 3. جمع‌آوری و ذخیره‌سازی داده‌ها
-- [x] 3.1 راه‌اندازی سیستم‌های جمع‌آوری داده (انجام شده در: [3.1_data_collection.md](project_management/requirements/3.1_data_collection.md) - [پوشه داده نمونه](data/3.1_btcusd_binance_sample/))
+- [x] 3.1 راه‌اندازی سیستم‌های جمع‌آوری داده (انجام شده در: [3.1_data_collection.md](project_management/requirements/3.1_data_collection.md) - [پوشه داده ۳.۱](data/3.1_data_collection/))
 - [ ] 3.2 ساخت دیتابیس و Data Lake
 - [ ] 3.3 اعتبارسنجی داده‌ها و تهیه نسخه پشتیبان
 - [ ] 3.4 مستندسازی منابع داده
