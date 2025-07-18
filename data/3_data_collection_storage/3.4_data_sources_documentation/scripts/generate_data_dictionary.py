@@ -9,7 +9,7 @@ fields = [
     {"name": "is_buyer_maker", "type": "bool", "description": "آیا خریدار سفارش‌دهنده است؟"}
 ]
 
-with open('../metadata/data_dictionary.json', 'w') as f:
+with open('data/3_data_collection_storage/3.4_data_sources_documentation/metadata/data_dictionary.json', 'w') as f:
     json.dump(fields, f, ensure_ascii=False, indent=2)
 
 print("data_dictionary.json generated.")

@@ -1,7 +1,7 @@
 import shutil
 import os
 
-src = '../3.1_data_collection/btcusd_binance_1000_tick.csv'
+src = '../3_data_collection_storage/3.1_data_collection/btcusd_binance_1000_tick.csv'
 dst = 'raw/btcusd_binance_1000_tick.csv'
 
 os.makedirs('raw', exist_ok=True)

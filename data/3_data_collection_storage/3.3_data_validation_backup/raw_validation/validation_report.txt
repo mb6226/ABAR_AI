@@ -1,1 +1,2 @@
-Validation not yet run.
+Total rows checked: 1000
+No errors found. Data is valid.

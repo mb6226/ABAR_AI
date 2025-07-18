@@ -1,8 +1,8 @@
 import csv
 import sys
 
-csv_path = sys.argv[1] if len(sys.argv) > 1 else '../../3.2_database_datalake/raw/btcusd_binance_1000_tick.csv'
-report_path = '../raw_validation/validation_report.txt'
+csv_path = sys.argv[1] if len(sys.argv) > 1 else 'data/3_data_collection_storage/3.2_database_datalake/raw/btcusd_binance_1000_tick.csv'
+report_path = 'data/3_data_collection_storage/3.3_data_validation_backup/raw_validation/validation_report.txt'
 
 required_fields = ["timestamp", "price", "quantity", "trade_id", "is_buyer_maker"]
 errors = []
