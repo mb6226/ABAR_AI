@@ -1,12 +1,14 @@
+
 import json
 import websocket
 import threading
 import time
+import csv
 
 # تنظیمات
 symbol = "btcusdt"
 stream_url = f"wss://stream.binance.com:9443/ws/{symbol}@trade"
-output_file = "btcusd_binance_sample_1000_tick.json"
+output_file = "./data/3.1_data_collection/btcusd_binance_1000_tick.csv"
 max_records = 1000
 records = []
 
@@ -25,9 +27,12 @@ def on_message(ws, message):
     print(f"دریافت تیک {len(records)}: {record}")
     if len(records) >= max_records:
         ws.close()
-        with open(output_file, "w") as f:
-            json.dump(records, f, ensure_ascii=False, indent=2)
-        print(f"{max_records} تیک ذخیره شد و اسکریپت متوقف شد.")
+        # ذخیره به صورت CSV
+        with open(output_file, "w", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=["timestamp", "price", "quantity", "trade_id", "is_buyer_maker"])
+            writer.writeheader()
+            writer.writerows(records)
+        print(f"{max_records} تیک ذخیره شد و اسکریپت متوقف شد (CSV).")
 
 def on_error(ws, error):
     print(f"خطا: {error}")
