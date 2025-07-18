@@ -41,9 +41,9 @@
 - [x] 7.3 آموزش کاربران نهایی (انجام شده در: [پوشه ۷.۳](dashboard/7_frontend_dashboard/7.3_user_training/))
 
 ## 8. استقرار روی زیرساخت ابری
-- [ ] 8.1 راه‌اندازی Kubernetes و CI/CD
-- [ ] 8.2 تست و مانیتورینگ زیرساخت
-- [ ] 8.3 مدیریت منابع و هزینه‌ها
+- [x] 8.1 راه‌اندازی Kubernetes و CI/CD (انجام شده در: [پوشه ۸.۱](cloud/8_deployment_infrastructure/8.1_kubernetes_cicd/))
+- [x] 8.2 تست و مانیتورینگ زیرساخت (انجام شده در: [پوشه ۸.۲](cloud/8_deployment_infrastructure/8.2_monitoring_testing/))
+- [x] 8.3 مدیریت منابع و هزینه‌ها (انجام شده در: [پوشه ۸.۳](cloud/8_deployment_infrastructure/8.3_resource_cost_management/))
 
 ## 9. تست و اعتبارسنجی سیستم
 - [ ] 9.1 تست واحد و یکپارچه‌سازی

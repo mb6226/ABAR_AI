@@ -1,0 +1,33 @@
+# نمونه فایل استقرار Kubernetes برای سرویس FastAPI
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: abarai-fastapi-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: abarai-fastapi
+  template:
+    metadata:
+      labels:
+        app: abarai-fastapi
+    spec:
+      containers:
+      - name: abarai-fastapi
+        image: nginx:latest
+        ports:
+        - containerPort: 8000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: abarai-fastapi-service
+spec:
+  selector:
+    app: abarai-fastapi
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8000
+  type: LoadBalancer
