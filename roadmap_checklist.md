@@ -10,7 +10,7 @@
 - [x] 2.1 انتخاب متدولوژی مدیریت پروژه (انجام شده در: [2.1_project_methodology.md](project_management/requirements/2.1_project_methodology.md))
 - [x] 2.2 تعریف وظایف و ابزارهای مدیریت (انجام شده در: [2.2_task_tools.md](project_management/requirements/2.2_task_tools.md))
 - [x] 2.3 تهیه مستندات اولیه (انجام شده در: [2.3_initial_docs.md](project_management/requirements/2.3_initial_docs.md))
-- [ ] 2.4 زمان‌بندی و تقسیم وظایف
+- [x] 2.4 زمان‌بندی و تقسیم وظایف (انجام شده در: [2.4_timeline_tasks.md](project_management/requirements/2.4_timeline_tasks.md))
 - [ ] 2.5 آموزش تیم و کاربران
 
 ## 3. جمع‌آوری و ذخیره‌سازی داده‌ها
