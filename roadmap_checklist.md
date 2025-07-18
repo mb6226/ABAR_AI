@@ -7,7 +7,7 @@
 - [x] 1.4 تهیه مستندات اولیه (انجام شده در: [requirements.md](project_management/requirements/requirements.md))
 
 ## 2. برنامه‌ریزی پروژه و مستندسازی
-- [ ] 2.1 انتخاب متدولوژی مدیریت پروژه
+- [x] 2.1 انتخاب متدولوژی مدیریت پروژه (انجام شده در: [2.1_project_methodology.md](project_management/requirements/2.1_project_methodology.md))
 - [ ] 2.2 تعریف وظایف و ابزارهای مدیریت
 - [ ] 2.3 تهیه مستندات اولیه
 - [ ] 2.4 زمان‌بندی و تقسیم وظایف
