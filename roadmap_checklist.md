@@ -36,9 +36,9 @@
 - [x] 6.3 مستندسازی APIها (انجام شده در: [پوشه ۶.۳](backend/6_main_services_apis/6.3_api_documentation/))
 
 ## 7. توسعه Frontend و داشبورد
-- [ ] 7.1 طراحی و پیاده‌سازی رابط کاربری
-- [ ] 7.2 تست تجربه کاربری
-- [ ] 7.3 آموزش کاربران نهایی
+- [x] 7.1 طراحی و پیاده‌سازی رابط کاربری (انجام شده در: [پوشه ۷.۱](dashboard/7_frontend_dashboard/7.1_ui_design/))
+- [x] 7.2 تست تجربه کاربری (انجام شده در: [پوشه ۷.۲](dashboard/7_frontend_dashboard/7.2_user_testing/))
+- [x] 7.3 آموزش کاربران نهایی (انجام شده در: [پوشه ۷.۳](dashboard/7_frontend_dashboard/7.3_user_training/))
 
 ## 8. استقرار روی زیرساخت ابری
 - [ ] 8.1 راه‌اندازی Kubernetes و CI/CD
