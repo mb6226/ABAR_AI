@@ -30,9 +30,8 @@
 - [x] 5.3 تست و اعتبارسنجی مدل‌ها (انجام شده در: [پوشه ۵_LSTM](models/5_LSTM/5.3_testing_validation/))
 - [x] 5.4 مستندسازی مدل‌ها و نتایج (انجام شده در: [پوشه ۵_LSTM](models/5_LSTM/5.4_documentation/))
 
-## 6. توسعه Backend و APIها
 - [x] 6.1 پیاده‌سازی سرویس‌های اصلی و APIها (انجام شده در: [پوشه ۶.۱](backend/6_main_services_apis/6.1_core_services/))
-- [ ] 6.2 تست و اعتبارسنجی سرویس‌ها
+- [x] 6.2 تست و اعتبارسنجی سرویس‌ها (انجام شده در: [پوشه ۶.۲](backend/6_main_services_apis/6.2_service_testing/))
 - [ ] 6.3 مستندسازی APIها
 
 ## 7. توسعه Frontend و داشبورد
