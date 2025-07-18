@@ -3,6 +3,7 @@ import pandas as pd
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
 from sklearn.preprocessing import MinMaxScaler
+import os
 
 # بارگذاری داده
 DATA_PATH = 'data/4_data_processing_modules/4.1_etl_processing/processed_tickdata.csv'
@@ -34,4 +35,5 @@ model.compile(optimizer='adam', loss='mse')
 model.fit(X, y, epochs=10, batch_size=32)
 
 # ذخیره مدل
-model.save('lstm_model.h5')
+model_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'lstm_model.h5')
+model.save(model_path)
