@@ -5,7 +5,7 @@ from tensorflow.keras.layers import LSTM, Dense
 from sklearn.preprocessing import MinMaxScaler
 
 # بارگذاری داده
-DATA_PATH = '../../data/4_data_processing_modules/4.1_etl_processing/processed_tickdata.csv'
+DATA_PATH = 'data/4_data_processing_modules/4.1_etl_processing/processed_tickdata.csv'
 df = pd.read_csv(DATA_PATH)
 
 # فقط ستون قیمت را استفاده می‌کنیم
