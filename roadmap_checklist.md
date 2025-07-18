@@ -17,7 +17,7 @@
 - [x] 3.1 راه‌اندازی سیستم‌های جمع‌آوری داده (انجام شده در: [3.1_data_collection.md](project_management/requirements/3.1_data_collection.md) - [پوشه داده ۳.۱](data/3.1_data_collection/))
 - [x] 3.2 ساخت دیتابیس و Data Lake (انجام شده در: [پوشه داده ۳.۲](data/3.2_database_datalake/))
 - [x] 3.3 اعتبارسنجی داده‌ها و تهیه نسخه پشتیبان (انجام شده در: [پوشه داده ۳.۳](data/3.3_data_validation_backup/))
-- [ ] 3.4 مستندسازی منابع داده
+- [x] 3.4 مستندسازی منابع داده (انجام شده در: [پوشه داده ۳.۴](data/3.4_data_sources_documentation/))
 
 ## 4. توسعه ماژول‌های پردازش داده
 - [ ] 4.1 توسعه ETL و پردازش اولیه داده‌ها
