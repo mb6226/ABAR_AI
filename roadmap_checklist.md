@@ -52,12 +52,12 @@
 - [x] 9.4 مستندسازی تست‌ها و نتایج (انجام شده در: [پوشه ۹.۴](testing/9_system_testing_validation/9.4_test_documentation_results/))
 
 ## 10. اتصال به بازارهای واقعی و اجرای معاملات
-- [ ] 10.1 پیاده‌سازی اتصال به بروکرها و صرافی‌ها
-- [ ] 10.2 تست امنیت و اعتبارسنجی ارتباطات
-- [ ] 10.3 مستندسازی تنظیمات و ارتباطات
+- [x] 10.1 پیاده‌سازی اتصال به بروکرها و صرافی‌ها (انجام شده در: [پوشه ۱۰.۱](market_connect/10_market_connection_execution/10.1_broker_exchange_connection/))
+- [x] 10.2 تست امنیت و اعتبارسنجی ارتباطات (انجام شده در: [پوشه ۱۰.۲](market_connect/10_market_connection_execution/10.2_security_validation/))
+- [x] 10.3 مستندسازی تنظیمات و ارتباطات (انجام شده در: [پوشه ۱۰.۳](market_connect/10_market_connection_execution/10.3_connection_documentation/))
 
 ## 11. مانیتورینگ، پشتیبانی و بهبود مستمر
-- [ ] 11.1 راه‌اندازی ابزارهای مانیتورینگ و لاگ‌برداری
-- [ ] 11.2 پشتیبانی سیستم و بهبود مدل‌ها و سرویس‌ها
-- [ ] 11.3 مدیریت تغییرات و آموزش تیم
-- [ ] 11.4 گزارش‌گیری و تحلیل عملکرد
+- [x] 11.1 راه‌اندازی ابزارهای مانیتورینگ و لاگ‌برداری (انجام شده در: [پوشه ۱۱.۱](monitoring/11_monitoring_support_improvement/11.1_logging_monitoring_tools/))
+- [x] 11.2 پشتیبانی سیستم و بهبود مدل‌ها و سرویس‌ها (انجام شده در: [پوشه ۱۱.۲](monitoring/11_monitoring_support_improvement/11.2_system_support_model_improvement/))
+- [x] 11.3 مدیریت تغییرات و آموزش تیم (انجام شده در: [پوشه ۱۱.۳](monitoring/11_monitoring_support_improvement/11.3_change_management_training/))
+- [x] 11.4 گزارش‌گیری و تحلیل عملکرد (انجام شده در: [پوشه ۱۱.۴](monitoring/11_monitoring_support_improvement/11.4_reporting_performance_analysis/))
